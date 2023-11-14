@@ -11,3 +11,10 @@
     width: 50%;
     margin: 2rem auto;
 }
+
+@media (min-width: 768px) {
+    .title {
+        text-align: left;
+        margin-left: 2rem;
+    }
+}
