@@ -39,3 +39,9 @@
     top: 50%;
     right: -10%;
 }
+
+@media (min-width: 768px) {
+    .imgcontainer {
+        width: 50%;
+    }
+}

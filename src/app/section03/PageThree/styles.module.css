@@ -1,6 +1,6 @@
 .pagethree {
     background-color: #f0eeef;
-    padding: 2rem 0;
+    padding: 4rem 0;
 }
 
 .desktop {
@@ -8,6 +8,10 @@
 }
 
 @media (min-width: 768px) {
+    .pagethree {
+        padding: 8rem 0;
+    }
+
     .mobile {
         display: none;
     }

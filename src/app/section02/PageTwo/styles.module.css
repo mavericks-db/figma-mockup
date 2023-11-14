@@ -1,7 +1,7 @@
 .pagetwo {
     margin-top: -4rem;
     background: linear-gradient(180deg, #F9F0E5 -7.8%, rgba(249, 240, 229, 0.18) 38.6%, rgba(249, 240, 229, 0) 100%);
-    padding-top: 4rem;
+    padding: 4rem 0;
 }
 
 .desktop {
@@ -9,6 +9,10 @@
 }
 
 @media (min-width: 768px) {
+    .pagetwo {
+        padding: 8rem 0;
+    }
+
     .mobile {
         display: none;
     }
@@ -20,6 +24,7 @@
 
     .content {
         display: grid;
+        align-items: center;
         grid-template-columns: repeat(2, 1fr);
     }
 }

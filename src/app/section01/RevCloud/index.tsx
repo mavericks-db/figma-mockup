@@ -11,9 +11,7 @@ export default function RevCloud() {
           <Image src={avatar} alt="avatar" />
           <div>
             <div className={styles.firstrow}>
-              <div className={styles.name}>
-                <p className={styles.desktop}>Amy P.</p>
-              </div>
+              <p className={styles.desktop}>Amy P.</p>
               <div className={styles.rating}>
                 <Image src={star} alt="star" />
                 <Image src={star} alt="star" />

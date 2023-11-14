@@ -23,6 +23,7 @@
 @media (min-width: 768px) {
     .listgroup {
         margin-top: 1rem;
+        width: 80%;
     }
 
     .listgroup>li {
