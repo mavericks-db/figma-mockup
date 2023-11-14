@@ -12,7 +12,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 1rem 1rem 4rem 1rem;
+    padding: 4rem 1rem;
     gap: 1rem;
     margin: 0 auto;
     border-bottom: 1px solid #C4C4C480;
@@ -42,7 +42,8 @@
         align-items: flex-start;
         width: 80%;
         border-bottom: none;
-        padding: 1rem;
+        padding: 1rem 0;
+        gap: 2rem;
     }
 
     .icondescription>li>img {

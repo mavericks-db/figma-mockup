@@ -20,8 +20,7 @@
 
 @media (min-width: 768px) {
     .customizebtn {
-        margin-top: 1rem;
-        margin-left: 4rem;
+        margin-left: 2rem;
         font-size: 1rem;
         width: 50%;
     }
