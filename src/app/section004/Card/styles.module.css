@@ -1,0 +1,50 @@
+.card {
+    background-color: #f0eeef;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    width: 70%;
+    position: relative;
+    height: 40vh;
+    margin: 1rem auto;
+    color: #01005B;
+}
+
+.card>img {
+    width: 5rem;
+    margin: 1rem;
+}
+
+.card>h1 {
+    font-size: 1.25rem;
+    margin: 1rem;
+}
+
+.card>h2 {
+    font-size: 1rem;
+    color: #676869;
+    width: 50%;
+    text-align: center;
+}
+
+.left {
+    position: absolute;
+    top: 50%;
+    left: -10%;
+}
+
+.right {
+    position: absolute;
+    top: 50%;
+    right: -10%;
+}
+
+@media (min-width: 768px) {
+
+    .left,
+    .right {
+        display: none;
+    }
+}

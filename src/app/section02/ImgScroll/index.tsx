@@ -20,12 +20,12 @@ export default function ImgScroll() {
         <div className={styles.thumbnails}>
           <Image src={sm01} alt="sm01" />
           <Image src={sm02} alt="sm02" />
-          <Image src={sm02} alt="sm02" />
-          <Image src={sm02} alt="sm02" />
-          <Image src={sm02} alt="sm02" />
-          <Image src={sm02} alt="sm02" />
-          <Image src={sm02} alt="sm02" />
-          <Image src={sm02} alt="sm02" />
+          <Image src={sm01} alt="sm01" />
+          <Image src={sm01} alt="sm01" />
+          <Image src={sm01} alt="sm01" />
+          <Image src={sm01} alt="sm01" />
+          <Image src={sm01} alt="sm01" />
+          <Image src={sm01} alt="sm01" />
         </div>
       </div>
       <h1>White Robe</h1>
