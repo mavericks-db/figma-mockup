@@ -1,0 +1,41 @@
+.imgscroll {
+    position: relative;
+}
+
+.imgscroll>h1 {
+    text-align: center;
+    margin: 1rem;
+    color: #676869
+}
+
+.imgcontainer {
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.thumbnails {
+    position: absolute;
+    display: flex;
+    gap: 1rem;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+}
+
+.thumbnails>img {
+    width: 100px;
+}
+
+.left {
+    position: absolute;
+    top: 50%;
+    left: -10%;
+}
+
+.right {
+    position: absolute;
+    top: 50%;
+    right: -10%;
+}

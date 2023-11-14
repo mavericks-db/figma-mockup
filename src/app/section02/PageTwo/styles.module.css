@@ -1,9 +1,7 @@
-.hero {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-    height: 100vh;
+.pagetwo {
+    margin-top: -4rem;
+    background: linear-gradient(180deg, #F9F0E5 -7.8%, rgba(249, 240, 229, 0.18) 38.6%, rgba(249, 240, 229, 0) 100%);
+    padding-top: 4rem;
 }
 
 .desktop {
@@ -11,7 +9,7 @@
 }
 
 @media (min-width: 768px) {
-    .hero {
+    .mobile {
         display: none;
     }
 
@@ -20,12 +18,7 @@
         flex-direction: column;
     }
 
-    .firstcol {
-        text-align: left;
-        margin: 2rem;
-    }
-
-    .container {
+    .content {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
