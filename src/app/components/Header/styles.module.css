@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Suisse-Intl-Mono';
+    src: url('../../../../public/Suisse-Intl-Mono.ttf');
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    font-family: 'Suisse-Intl-Mono', sans-serif;
+    background-color: #fbf0e4;
+    width: 100vw;
+}
+
+.desktop {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 1rem;
+        font-family: 'Suisse-Intl-Mono', sans-serif;
+        background-color: #fbf0e4;
+        width: 100vw;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    .desktop {
+        display: block;
+    }
+}

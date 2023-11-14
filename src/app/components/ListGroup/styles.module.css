@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'Sofia-Pro';
+    src: url(../../../../public/Sofia-Pro.ttf);
+}
+
+.listgroup {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 75%;
+    gap: 1rem;
+}
+
+.listgroup>li {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    font-family: 'Sofia-Pro', sans-serif;
+    color: #676869;
+    gap: 1rem;
+}
+
+@media (min-width: 768px) {
+    .listgroup {
+        margin-top: 1rem;
+    }
+
+    .listgroup>li {
+        margin: 0.5rem;
+    }
+}

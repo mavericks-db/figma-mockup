@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "Sofia-Pro";
+    src: url(../../../../public/Sofia-Pro.ttf);
+}
+
+.subtitle {
+    text-align: center;
+    color: #01005B;
+    font-size: 3rem;
+    font-family: 'Sofia-Pro', sans-serif;
+}
+
+@media (min-width: 768px) {
+    .subtitle {
+        text-align: start;
+    }
+
+}
