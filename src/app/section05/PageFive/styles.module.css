@@ -1,0 +1,38 @@
+.pagefive>p {
+    text-align: center;
+    color: #676869;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 4rem;
+}
+
+.desktop {
+    display: none;
+}
+
+
+@media (min-width: 768px) {
+    .mobile {
+        display: none;
+    }
+
+    .desktop {
+        display: flex;
+        justify-content: center;
+        margin: 4rem;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    .cardsWrapper {
+        display: flex;
+        height: fit-content;
+        width: 80%;
+        gap: 2rem;
+    }
+}

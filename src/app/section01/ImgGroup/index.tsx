@@ -7,14 +7,14 @@ import four from "../../../../public/004.png";
 import five from "../../../../public/005.png";
 
 export default function ImgGroup() {
+  const images = [one, two, three, four, five];
+
   return (
     <>
       <div className={styles.imggroup}>
-        <Image src={one} alt="background_one" />
-        <Image src={two} alt="girl_standing" />
-        <Image src={three} alt="girl_standing2" />
-        <Image src={four} alt="girl_reading" />
-        <Image src={five} alt="background_two" />
+        {images.map((el, idx) => (
+          <Image src={el} alt={idx.toString()} key={idx} />
+        ))}
       </div>
     </>
   );

@@ -7,6 +7,8 @@ import leftarrow from "../../../../public/leftarrow.png";
 import rightarrow from "../../../../public/rightarrow.png";
 
 export default function ImgScroll() {
+  const sm = [sm01, sm02, sm01, sm01, sm01, sm01, sm01, sm01];
+
   return (
     <div className={styles.imgscroll}>
       <div className={styles.imgcontainer}>
@@ -18,14 +20,9 @@ export default function ImgScroll() {
           <Image src={rightarrow} alt="right_arrow" />
         </div>
         <div className={styles.thumbnails}>
-          <Image src={sm01} alt="sm01" />
-          <Image src={sm02} alt="sm02" />
-          <Image src={sm01} alt="sm01" />
-          <Image src={sm01} alt="sm01" />
-          <Image src={sm01} alt="sm01" />
-          <Image src={sm01} alt="sm01" />
-          <Image src={sm01} alt="sm01" />
-          <Image src={sm01} alt="sm01" />
+          {sm.map((el, idx) => (
+            <Image src={el} alt={idx.toString()} key={idx} />
+          ))}
         </div>
       </div>
       <h1>White Robe</h1>

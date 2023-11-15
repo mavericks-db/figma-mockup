@@ -1,8 +1,8 @@
-import PageFour from "./section004/PageFour";
 import Hero from "./section01/Hero";
-import RevCloud from "./section01/RevCloud";
 import PageTwo from "./section02/PageTwo";
 import PageThree from "./section03/PageThree";
+import PageFour from "./section04/PageFour";
+import PageFive from "./section05/PageFive";
 
 export default function Home() {
   return (
@@ -11,6 +11,7 @@ export default function Home() {
       <PageTwo />
       <PageThree />
       <PageFour />
+      <PageFive />
     </>
   );
 }

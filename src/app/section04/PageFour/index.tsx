@@ -35,8 +35,8 @@ export default function PageFour() {
         <Card cardInfo={cardInfo[0]} />
       </div>
       <div className={styles.desktop}>
-        {cardInfo.map((el) => (
-          <Card cardInfo={el} key={el.icon} />
+        {cardInfo.map((el, idx) => (
+          <Card cardInfo={el} key={idx} />
         ))}
       </div>
       <CustomizeBtn />
