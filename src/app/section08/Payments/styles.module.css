@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Suisse-Intl-Mono';
+    src: url(../../../../public/Suisse-Intl-Mono.ttf);
+}
+
+.payments {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 50%;
+    font-family: 'Suisse-Intl-Mono', sans-serif;
+    color: #C4C4C440;
+    margin: 0 auto;
+}
+
+.payments>div {
+    display: flex;
+    gap: 0.5rem;
+    color: #1FAD40;
+    font-size: 0.5rem;
+}

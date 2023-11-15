@@ -1,0 +1,21 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background: linear-gradient(180deg, #F9F0E5 0%, rgba(249, 240, 229, 0.18) 43.05%, rgba(249, 240, 229, 0) 100%);
+    padding: 4rem 0;
+}
+
+.desktop {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .mobile {
+        display: none;
+    }
+
+    .desktop {
+        display: block;
+    }
+}

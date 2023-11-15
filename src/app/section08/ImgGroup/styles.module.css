@@ -1,0 +1,32 @@
+.imggroup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imggroup>img {
+    transform: scale(1.2);
+}
+
+.imggroup>img:nth-of-type(1) {
+    transform: translateX(50%);
+}
+
+.imggroup>img:nth-of-type(2) {
+    transform: translateX(10%);
+    z-index: 2;
+}
+
+.imggroup>img:nth-of-type(2) {
+    z-index: 3;
+}
+
+
+.imggroup>img:nth-of-type(4) {
+    transform: translateX(-10%);
+    z-index: 2;
+}
+
+.imggroup>img:nth-of-type(5) {
+    transform: translateX(-50%);
+}
