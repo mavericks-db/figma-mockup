@@ -6,8 +6,8 @@ import blue from "../../../../public/blue.png";
 import CustomizeBtn from "../CustomizeBtn";
 import Review from "../Review";
 import Image from "next/image";
-import leftarrow from "../../../../public/leftarrow.png";
-import rightarrow from "../../../../public/rightarrow.png";
+import leftarrow from "../../../../public/leftarrow.svg";
+import rightarrow from "../../../../public/rightarrow.svg";
 
 export default function Main() {
   const cardInfo = [

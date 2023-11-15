@@ -1,6 +1,6 @@
 import styles from "./styles.module.css";
-import minus from "../../../../public/-minus.png";
-import plus from "../../../../public/+plus.png";
+import minus from "../../../../public/-minus.svg";
+import plus from "../../../../public/+plus.svg";
 import Image from "next/image";
 
 export default function Faqs() {

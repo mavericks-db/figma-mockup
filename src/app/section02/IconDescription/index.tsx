@@ -1,8 +1,8 @@
 import styles from "./styles.module.css";
-import icon01 from "../../../../public/icon01.png";
-import icon02 from "../../../../public/icon02.png";
-import icon03 from "../../../../public/icon03.png";
-import icon04 from "../../../../public/icon04.png";
+import icon01 from "../../../../public/icon01.svg";
+import icon02 from "../../../../public/icon02.svg";
+import icon03 from "../../../../public/icon03.svg";
+import icon04 from "../../../../public/icon04.svg";
 import Image from "next/image";
 
 export default function IconDescription() {

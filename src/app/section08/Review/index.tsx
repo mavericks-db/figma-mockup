@@ -1,5 +1,5 @@
 import styles from "./styles.module.css";
-import star from "../../../../public/star.png";
+import star from "../../../../public/star.svg";
 import Image from "next/image";
 
 export default function Review() {

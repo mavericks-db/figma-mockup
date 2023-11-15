@@ -1,9 +1,9 @@
 import Card from "../Card";
 import Title from "../Title";
 import styles from "./styles.module.css";
-import carbon from "../../../../public/carbon.png";
-import water from "../../../../public/water.png";
-import energy from "../../../../public/energy.png";
+import carbon from "../../../../public/carbon.svg";
+import water from "../../../../public/water.svg";
+import energy from "../../../../public/energy.svg";
 
 export default function Main() {
   const cardInfo = [

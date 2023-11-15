@@ -1,6 +1,6 @@
-import aa from "../../../../public/aa.png";
-import bb from "../../../../public/bb.png";
-import cc from "../../../../public/cc.png";
+import sunmoon from "../../../../public/sunmoon.svg";
+import cart from "../../../../public/cart.svg";
+import waves from "../../../../public/waves.svg";
 import styles from "./styles.module.css";
 import Image from "next/image";
 
@@ -9,15 +9,15 @@ export default function ListGroup() {
     <>
       <ul className={styles.listgroup}>
         <li>
-          <Image src={aa} alt="sun_moon" />
+          <Image src={sunmoon} alt="sun_moon" />
           <span>Beautiful, comfortable loungewear for day or night.</span>
         </li>
         <li>
-          <Image src={bb} alt="sun_moon" />
+          <Image src={cart} alt="cart" />
           <span>No wasteful extras, like tags or plastic packaging.</span>
         </li>
         <li>
-          <Image src={cc} alt="sun_moon" />
+          <Image src={waves} alt="waves" />
           <span>
             Our signature fabric is incredibly comfortable — unlike anything
             you&apos;ve ever felt.

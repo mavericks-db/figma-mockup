@@ -1,6 +1,6 @@
 import styles from "./styles.module.css";
 import avatar from "../../../../public/avatar.png";
-import star from "../../../../public/star.png";
+import star from "../../../../public/star.svg";
 import Image from "next/image";
 
 export default function RevCloud() {

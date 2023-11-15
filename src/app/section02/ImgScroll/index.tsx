@@ -3,8 +3,8 @@ import styles from "./styles.module.css";
 import whiterobe from "../../../../public/whiterobe.png";
 import sm01 from "../../../../public/sm01.png";
 import sm02 from "../../../../public/sm02.png";
-import leftarrow from "../../../../public/leftarrow.png";
-import rightarrow from "../../../../public/rightarrow.png";
+import leftarrow from "../../../../public/leftarrow.svg";
+import rightarrow from "../../../../public/rightarrow.svg";
 
 export default function ImgScroll() {
   const sm = [sm01, sm02, sm01, sm01, sm01, sm01, sm01, sm01];

@@ -1,8 +1,8 @@
 import Image from "next/image";
 import styles from "./styles.module.css";
-import leftarrow from "../../../../public/leftarrow.png";
-import rightarrow from "../../../../public/rightarrow.png";
-import star from "../../../../public/star.png";
+import leftarrow from "../../../../public/leftarrow.svg";
+import rightarrow from "../../../../public/rightarrow.svg";
+import star from "../../../../public/star.svg";
 
 export default function Card({ cardInfo }: any) {
   const { name, icon, text } = cardInfo;

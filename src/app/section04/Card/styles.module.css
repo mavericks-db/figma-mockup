@@ -14,7 +14,6 @@
 
 .card>img {
     width: 5rem;
-    margin: 1rem;
 }
 
 .card>h1 {
@@ -44,6 +43,11 @@
 @media (min-width: 768px) {
     .card {
         height: 40vh;
+    }
+
+    .card>img {
+        width: 20%;
+        object-fit: contain;
     }
 
     .left,
