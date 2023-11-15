@@ -9,7 +9,7 @@ import Image from "next/image";
 import leftarrow from "../../../../public/leftarrow.png";
 import rightarrow from "../../../../public/rightarrow.png";
 
-export default function PageFive() {
+export default function Main() {
   const cardInfo = [
     {
       name: "Jane, S.",

@@ -6,7 +6,7 @@ import Review from "../Review";
 import Title from "../Title";
 import styles from "./styles.module.css";
 
-export default function PageTwo() {
+export default function Main() {
   return (
     <>
       <div className={styles.pagetwo}>

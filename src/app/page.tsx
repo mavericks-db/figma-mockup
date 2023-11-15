@@ -1,17 +1,17 @@
-import Hero from "./section01/Hero";
-import PageTwo from "./section02/PageTwo";
-import PageThree from "./section03/PageThree";
-import PageFour from "./section04/PageFour";
-import PageFive from "./section05/PageFive";
+import Hero from "./section01/Main";
+import Section02 from "./section02/Main";
+import Section03 from "./section03/Main";
+import Section04 from "./section04/Main";
+import Section05 from "./section05/Main";
 
 export default function Home() {
   return (
     <>
       <Hero />
-      <PageTwo />
-      <PageThree />
-      <PageFour />
-      <PageFive />
+      <Section02 />
+      <Section03 />
+      <Section04 />
+      <Section05 />
     </>
   );
 }

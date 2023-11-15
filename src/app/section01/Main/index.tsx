@@ -7,7 +7,7 @@ import RevCloud from "../RevCloud";
 import Subtitle from "../Subtitle";
 import styles from "./styles.module.css";
 
-export default function Hero() {
+export default function Main() {
   return (
     <>
       <div className={styles.hero}>

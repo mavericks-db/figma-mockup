@@ -9,7 +9,7 @@ import ship from "../../../../public/ship.png";
 import sunmoon from "../../../../public/sun-moon.png";
 import Review from "../Review";
 
-export default function PageFour() {
+export default function Main() {
   const cardInfo = [
     {
       title: "You save.",

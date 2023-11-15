@@ -4,7 +4,7 @@ import ImgGroup from "../ImgGroup";
 import Title from "../Title";
 import styles from "./styles.module.css";
 
-export default function PageThree() {
+export default function Main() {
   return (
     <>
       <div className={styles.pagethree}>
