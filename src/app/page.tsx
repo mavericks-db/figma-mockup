@@ -4,6 +4,7 @@ import Section03 from "./section03/Main";
 import Section04 from "./section04/Main";
 import Section05 from "./section05/Main";
 import Section06 from "./section06/Main";
+import Section07 from "./section07/Main";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Section04 />
       <Section05 />
       <Section06 />
+      <Section07 />
     </>
   );
 }

@@ -1,0 +1,35 @@
+.main {
+    background-color: #f0eeef;
+    padding: 4rem 0;
+}
+
+.desktop {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .main {
+        padding: 1rem 0;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    .desktop {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .desktop>div {
+        border-bottom: 0;
+    }
+
+    .desktop>div:nth-of-type(2) {
+        border-left: 1px solid #C4C4C480;
+        border-right: 1px solid #C4C4C480;
+    }
+}
