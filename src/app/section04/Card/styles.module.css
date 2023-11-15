@@ -42,6 +42,9 @@
 }
 
 @media (min-width: 768px) {
+    .card {
+        height: 40vh;
+    }
 
     .left,
     .right {

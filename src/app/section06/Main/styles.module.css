@@ -1,0 +1,14 @@
+.desktop {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .mobile {
+        display: none;
+    }
+
+    .desktop {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

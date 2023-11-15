@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Sofia-Pro';
+    src: url(../../../../public/Sofia-Pro.ttf);
+}
+
+.faqs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Sofia-Pro', sans-serif;
+    margin: 2rem 0;
+}
+
+.faqs>li {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    margin: 1rem;
+    padding: 2rem 0;
+    width: 80%;
+    border-bottom: 1px solid #EAEAEA;
+}
+
+.faqs>li>img {
+    justify-self: flex-end;
+    margin-right: 1rem;
+}
+
+.faqs>li>div>h3 {
+    color: #01005B;
+    font-size: 1.5rem;
+}
+
+.faqs>li>div>p {
+    color: #676869;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.faqs>li:nth-of-type(1) {
+    border-top: 1px solid #EAEAEA;
+}
+
+@media (min-width: 768px) {
+    .faqs>li {
+        padding: 0.75rem 0;
+    }
+
+    .faqs>li>div {
+        padding: 0;
+    }
+
+    .faqs>li>div>h3 {
+        font-size: 1.25rem;
+    }
+
+    .faqs>li>div>p {
+        font-size: 1rem;
+    }
+}

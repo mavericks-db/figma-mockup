@@ -1,0 +1,50 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.imggroup {
+    display: flex;
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    height: 70%;
+}
+
+.imggroup>img:nth-of-type(1) {
+    z-index: 1;
+    position: absolute;
+    top: -20%;
+    left: 15%;
+}
+
+.imggroup>img:nth-of-type(2) {
+    z-index: 1;
+    position: absolute;
+    top: -30%;
+    right: 10%;
+}
+
+.imggroup>img:nth-of-type(3) {
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+}
+
+.imggroup>img:nth-of-type(4) {
+    z-index: 1;
+    position: absolute;
+    bottom: -10%;
+    right: 15%;
+}
+
+.imggroup>img:nth-of-type(5) {
+    z-index: 1;
+    position: absolute;
+    bottom: -20%;
+    left: 10%;
+}
